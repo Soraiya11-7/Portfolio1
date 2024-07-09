@@ -128,21 +128,24 @@ nav ul a{
     border-radius: 10px;
     background: rgb(255, 248, 243);
     margin-top: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
 
 }
 .about-content{
+     /* padding-top: 10px; */
     width: 827px;
     height: 288px;
-    margin: 0 auto;
-    /* padding-top: 10px; */
-    /* margin-top: 100px; */
+    /* margin: 0 auto; */
+    background: rgb(255, 255, 255);
+    /* border: 1px solid rgb(0, 0, 0); */
     /* padding: 130px 150px; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
    
